@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Youtube</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <input class="first" type="text" placeholder="First Name" >
+  <input class="last" type="text" placeholder="Last Name">
+  <input class="email" type="email" placeholder="Email">
+  <button>Sign Up</button>
+</body>
+</html>
+
+input {
+    font-size: 15px;
+    border-color: rgb(200, 200, 200);
+    padding: 8px 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.first {
+    width: 110px;
+}
+.last {
+    width: 110px;
+}
+.email {
+    display: block;
+    width: 254px;
+}
+button {
+    font-size: 16px;
+    font-weight: bold;
+    width: 285px;
+    background-color: rgb(39, 137, 250);
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px; 
+    cursor: pointer;
+}
